@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Audio Quiz</title>
+        <link rel="stylesheet" href="master.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+    </head>
+    <body>
+        <div class="question">
+            <h2>Question #1</h2>
+            <div id="question1">
+                <p>Put the headphones/earbuds and press play. You will hear the question #1.</p>
+                <audio controls="controls" id="audio_player1">
+                  <source src="audio/01.mp3" type="audio/mpeg" />
+                </audio>
+                <h3>What is your answer to question #1?</h3>
+                <div class="buttons">
+                    <button type="button" id="q1yes">Yes</button>
+                    <button type="button" id="q1no">No</button>
+                </div>
+            </div>
+
+        </div>
+        <div class="question">
+            <h2>Question #2</h2>
+            <div id="question2">
+                <p>Put the headphones/earbuds and press play. You will hear the question #2.</p>
+                <audio controls="controls" id="audio_player2">
+                  <source src="audio/02.mp3" type="audio/mpeg" />
+                </audio>
+                <h3>What is your answer to question #2?</h3>
+                <div class="buttons">
+                    <button type="button" id="q2yes">Yes</button>
+                    <button type="button" id="q2no">No</button>
+                </div>
+            </div>
+
+        </div>
+        <div class="question">
+            <h2>Question #3</h2>
+            <div id="question3">
+                <p>Put the headphones/earbuds and press play. You will hear the question #3.</p>
+                <audio controls="controls" id="audio_player3">
+                  <source src="audio/03.mp3" type="audio/mpeg" />
+                </audio>
+                <h3>What is your answer to question #3?</h3>
+                <div class="buttons">
+                    <button type="button" id="q3yes">Yes</button>
+                    <button type="button" id="q3no">No</button>
+                </div>
+            </div>
+
+        </div>
+
+
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>
